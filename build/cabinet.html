@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Project">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>SignUp</title>
+    <title>Cabinet</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -43,40 +43,55 @@
 <!-- Main Page -->
 <main>
 
-<!-- SignUp -->
-<section class="signup">
+<!-- Cabinet -->
+<section class="cabinet">
     <div class="container">
 
-        <h2 class="title__h2">Регистрация</h2>
+        <h2 class="title__h2">Личные данные</h2>
         <!-- Form -->
-        <form class="contact-form signup__form" id="signin-form">
+        <form class="contact-form cabinet__form" id="cabinet-form">
 
-            <div class="form__wrapper signup__wrapper">
-                <div class="form__block">
-                    <label>Логин</label>
-                    <input style="max-width: 100%;" type="text" class="signup__input"/>
+            <div class="cabinet__inner">
+                <div class="form__wrapper cabinet__wrapper">
+                    <div class="form__block">
+                        <label>Логин</label>
+                        <input style="max-width: 100%;" type="text" class="cabinet__input"/>
+                    </div>
+    
+                    <div class="form__block">
+                        <label>E-mail</label>
+                        <input style="max-width: 100%;" type="email" class="cabinet__input"/>
+                    </div>
                 </div>
-
-                <div class="form__block">
-                    <label>E-mail</label>
-                    <input style="max-width: 100%;" type="text" class="signup__input"/>
+    
+                <div class="form__wrapper cabinet__wrapper">
+                    <div class="form__block">
+                        <label>Имя</label>
+                        <input style="max-width: 100%;" type="text" class="cabinet__input"/>
+                    </div>
+    
+                    <div class="form__block">
+                        <label>Фамилия</label>
+                        <input style="max-width: 100%;" type="text" class="cabinet__input"/>
+                    </div>
                 </div>
-
-                <div class="form__block">
-                    <label>Пароль</label>
-                    <input style="max-width: 100%;" type="password" class="signup__input"/>
-                </div>
-
-                <div class="form__block">
-                    <label>Пароль снова</label>
-                    <input style="max-width: 100%;" type="password" class="signup__input"/>
+    
+                <div class="form__wrapper cabinet__wrapper">
+                    <div class="form__block">
+                        <label>Номер телефона</label>
+                        <input style="max-width: 100%;" type="tel" class="cabinet__input"/>
+                    </div>
+    
+                    <div class="form__block">
+                        <label>Telegram</label>
+                        <input style="max-width: 100%;" type="text" class="cabinet__input"/>
+                    </div>
                 </div>
             </div>
 
-            <input type="button" value="Отправить"/>
+            <input type="button" value="Сохранить"/>
 
         </form>
-
     </div>
 </section>
 
