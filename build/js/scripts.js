@@ -52,6 +52,7 @@ window.addEventListener('scroll', fixedNav)
 
 
 
+
 // SWIPER
 
 const swiper = new Swiper('.swiper', {

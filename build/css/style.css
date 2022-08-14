@@ -133,6 +133,14 @@ nav {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.logo a:hover {
+  color: #3b3b3b;
 }
 
 .menu {
@@ -150,6 +158,14 @@ nav {
 
 .menu__item-link {
   color: #000;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu__item-link:hover {
+  color: #3b3b3b;
+  text-decoration: underline;
 }
 
 .menu-login {
@@ -168,6 +184,14 @@ nav {
   line-height: 24px;
   margin-left: 20px;
   color: #000;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu-login__item-link:hover {
+  color: #3b3b3b;
+  text-decoration: underline;
 }
 
 .burger {
@@ -318,6 +342,14 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.reviews__link:hover {
+  color: #3b3b3b;
+  text-decoration: underline;
 }
 
 .swiper {
@@ -517,14 +549,14 @@ input[type=button] {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
   color: #fff;
 }
 
 input[type=button]:hover {
-  color: #000;
+  background: #1b7478;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
