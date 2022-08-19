@@ -339,19 +339,19 @@ nav {
   margin-top: 20px;
 }
 
-.form__block {
+.trade .form__block {
   min-width: 240px;
   max-width: 240px;
 }
 
-.form__block-title {
+.trade .form__block-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   padding-bottom: 6px;
 }
 
-.form__label span {
+.trade .form__label span {
   color: red;
 }
 
@@ -858,6 +858,16 @@ input[type=button]:focus {
   margin: 0 auto;
 }
 
+.feedback {
+  max-width: 550px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.feedback .form__label span {
+  color: red;
+}
+
 .signin {
   max-width: 580px;
   margin: 0 auto;
@@ -987,6 +997,10 @@ input[type=button]:focus {
     padding-bottom: 50px;
   }
 
+  .feedback {
+    padding-bottom: 50px;
+  }
+
   .signin {
     padding: 100px 0;
   }
@@ -1022,7 +1036,7 @@ input[type=button]:focus {
     padding-bottom: 40px;
   }
 
-  .form__block {
+  .trade .form__block {
     max-width: 100%;
   }
 
@@ -1093,6 +1107,10 @@ input[type=button]:focus {
 
   .review {
     padding-top: 40px;
+  }
+
+  .feedback {
+    padding-bottom: 40px;
   }
 
   .signin {
@@ -1280,7 +1298,7 @@ input[type=button]:focus {
     font-size: 18px;
   }
 
-  .form__block-title {
+  .trade .form__block-title {
     font-size: 18px;
   }
 
