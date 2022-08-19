@@ -242,6 +242,73 @@
     </div>
 </section>
 
+<!-- Trade -->
+<section class="trade">
+    <div class="container">
+
+        <h2 class="title__h2">Обменник</h2>
+        <!-- Form -->
+        <form class="contact-form trade__form" id="trade-form">
+
+            <div class="form__wrapper trade__wrapper">
+                <div class="form__block">
+                    <p class="form__block-title">Вы отдаёте "BITCOIN BTC"</p>
+                    <label class="form__label">Сумма<span>*</span>:</label>
+                    <input style="max-width: 100%;" type="text" class="trade__input"/>
+                </div>
+
+                <div class="form__block">
+                    <p class="form__block-title">Вы получаете "DASH DASH"</p>
+                    <label class="form__label">Сумма<span>*</span>:</label>
+                    <input style="max-width: 100%;" type="text" class="trade__input"/>
+                </div>
+            </div>
+
+            <div class="form__wrapper trade__wrapper">
+                <div class="form__block">
+                    <label class="form__label">E-mail<span>*</span>:</label>
+                    <input style="max-width: 100%;" type="email" class="trade__input"/>
+                </div>
+
+                <div class="form__block">
+                    <label class="form__label">На счёт<span>*</span>:</label>
+                    <input style="max-width: 100%;" type="text" class="trade__input"/>
+                </div>
+            </div>
+
+            <input type="button" value="Обменять"/>
+
+            <!-- Modal -->
+            <div class="modal__wrapper">
+                <div class="modal">
+                    <div class="modal__close"> <img src="./img/cancel.svg" alt="cancel" width="10px" height="10px"></div>
+                    <div class="modal__title"><span>Как оплатить?</span></div>
+                    <div class="modal__body">
+                        <ol class="modal__list">
+                            <li class="modal__list-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos. <br>
+                                <img src="./img/qr-code.png" alt="qr-code">
+                            </li>
+                            <li class="modal__list-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos.</li>
+                            <li class="modal__list-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos.</li>
+                        </ol>
+
+                        <p class="modal__text"><span>Пожалуйста, будьте внимательны!</span> Все поля должны быть заполнены.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="modal__btn">Как оплатить?</a>
+
+            <!-- Checkbox input -->
+            <label class="checkbox__item">
+                <input class="checkbox__input" type="checkbox" name="checkbox" value="rules">
+                <span class="checkbox__span">С <a target="_blank" href="rules.html">правилами сервиса</a> ознакомлен и согласен</span>
+            </label>
+
+            
+        </form>
+    </div>
+</section>
+
 <!-- About -->
 <section class="about">
     <div class="container">
