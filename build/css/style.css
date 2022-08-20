@@ -244,23 +244,32 @@ nav {
   padding-bottom: 20px;
 }
 
+.transfer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
 .transfer__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 450px;
+  max-width: 100%;
   gap: 20px;
   margin-bottom: 30px;
 }
 
 .transfer__inner {
-  width: 580px;
-  max-width: 100%;
+  min-width: 30%;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -288,7 +297,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
 
 .transfer__icon {
@@ -298,7 +307,7 @@ nav {
 
 .transfer__name {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
 }
 
@@ -308,7 +317,7 @@ nav {
 
 .bg-blue {
   background: #27A8AE;
-  padding: 26px 24px 26px 80px;
+  padding: 26px 24px 26px 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -618,7 +627,6 @@ nav {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
   color: #000000;
 }
 
@@ -1358,7 +1366,7 @@ input[type=button]:focus {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 20px 30px;
+    padding: 15px;
   }
 
   .form {
