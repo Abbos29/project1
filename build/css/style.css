@@ -945,11 +945,39 @@ input[type=button]:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 150px auto 200px;
+  margin: 70px auto 200px;
   padding: 30px 20px 20px;
   background: #FFFFFF;
   border-radius: 10px;
   gap: 40px;
+}
+
+.order__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 25px;
+}
+
+.order__list {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.order__red {
+  color: red;
+}
+
+.order__qrcode {
+  max-width: 150px;
 }
 
 .order__text {
@@ -965,6 +993,47 @@ input[type=button]:focus {
 .order .order-id {
   color: #000;
   margin: 0;
+}
+
+.order__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.order .order-btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.order__btn-no {
+  background: gray;
+}
+
+.order__btn-no:hover {
+  background: #575757;
+}
+
+.order__btn-yes {
+  background: green;
+}
+
+.order__btn-yes:hover {
+  background: #005e00;
 }
 
 .footer {
@@ -1054,7 +1123,7 @@ input[type=button]:focus {
   }
 
   .order__wrapper {
-    margin: 90px auto;
+    margin: 40px auto;
     min-width: 60%;
     gap: 30px;
   }
@@ -1181,6 +1250,11 @@ input[type=button]:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .order__btns {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 
   .footer {
@@ -1421,7 +1495,7 @@ input[type=button]:focus {
   }
 
   .order__wrapper {
-    margin: 80px auto;
+    margin: 30px auto;
     min-width: 100%;
   }
 
