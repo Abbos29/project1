@@ -595,20 +595,17 @@ nav {
 }
 
 .reserve__inner {
-  width: 200px;
   max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 20px;
 }
 
 .reserve__block {
-  width: 100%;
+  max-width: 180px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -935,6 +932,17 @@ input[type=button]:focus {
   max-width: 280px;
 }
 
+.orders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .order__wrapper {
   max-width: 500px;
   min-width: 50%;
@@ -945,7 +953,7 @@ input[type=button]:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 70px auto 200px;
+  margin: 70px auto 0px;
   padding: 30px 20px 20px;
   background: #FFFFFF;
   border-radius: 10px;
@@ -1172,10 +1180,6 @@ input[type=button]:focus {
 
   .reserve {
     padding-top: 40px;
-  }
-
-  .reserve__inner {
-    width: 250px;
   }
 
   .form {
